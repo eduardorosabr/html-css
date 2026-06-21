@@ -1,0 +1,3 @@
+HTML está atualizando sempre, então algumas tags se tornam obsoleta.
+HTML é focado na semântica, muito mais que na forma.
+Ou seja, significado das coisas, as formas deixamos para JS e CSS

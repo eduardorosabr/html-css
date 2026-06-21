@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+    Tudo que é id em HTML, em CSS vira #
+    Tudo que é class em HTML, em CSS vira.
+*/
+h1#principal{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#71E323;
+    text-shadow: 2px 2px 5px #72e2276b;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EC6177;
+}
+main{
+    width: 650px;
+    margin: auto;
+    background-color: white;
+    padding: 3px;
+    box-shadow: 2px 2px 5px #aa4655bd;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.363) 100%, rgb(255, 255, 255));
+}
+p{
+    text-align: justify;
+}
+.basic{
+    
+    color: #49b600d3;
+}
+.medium{
+    
+    color: #e3b023;
+}
+.hard{
+    
+    color:#e32323;
+}
+.princ{
+    text-align: center;
+    text-shadow: 5px 5px 5px #a51a1a41 ;
+    color: #e32323;
+}
+.destaque{
+    background-color: #ffcc3f;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+background-color: rgb(98, 111, 134);
+font-size: 22px;
+font-family: monospace, 'Times New Roman', Times, serif;
+}
+h1 {
+color: darkkhaki;
+}
+h2 {
+color: darkorange;
+}
+h3 {
+color:darkcyan ;
+}
+p {
+color: rgb(9, 255, 222);
+}

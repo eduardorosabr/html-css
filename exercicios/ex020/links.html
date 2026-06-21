@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+        a:visited{
+            color: rgb(48, 51, 241);
+        }
+        a:hover{
+            color: rgb(255, 2, 2);
+            background-color: blueviolet;
+        }
+        a:active{
+            color: rgb(9, 255, 0);
+        }
+        a{
+            text-decoration: none;
+        }
+        a::after{
+            content: " That's a link ";
+        }
+        a::before{
+            content:" Here comes a link ";
+        }
+        .marked{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="marked" href="https://www.youtube.com/cursoemvideo" target="_blank">Curso em Vídeo YTB</a></li>
+        <li><a class="marked" href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a></li>
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank">Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

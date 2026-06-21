@@ -1,0 +1,7 @@
+<a href="../../../index.html">Voltar para a página inicial</a>
+
+Cada ../ sobe um nível:
+
+../ → volta para pasta2
+../../ → volta para pasta1
+../../../ → volta para a raiz do site

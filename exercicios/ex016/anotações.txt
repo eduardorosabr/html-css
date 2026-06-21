@@ -1,0 +1,86 @@
+Com a tag <style>
+Conseguimos selecionar o body e fazer alterações em css local.
+
+  background-image: linear-gradient(45deg, #FEC315,#FD7809,#FF2123 30%,#FD0771,#9010F7 110%);
+Utilizamos o atributo background-image e utilizamos a função linear/radial-gradient
+selecionamos o angulo ou a direção e colocamos as cores, logo após a vírgula.
+
+Também, podemos utilizar o seletor global
+para definir o escopo total da página como alteração
+*{
+background-attachment: fixed;
+height: 100%;
+}
+@charset "UTF-8"; regra de css
+
+
+min-height: 100vh; é uma propriedade CSS que significa:
+
+min-height → altura mínima que o elemento deve ter.
+
+100vh → 100% da altura da viewport (a janela visível do navegador).
+
+vh = viewport height.
+
+1vh equivale a 1% da altura da tela.
+
+Logo, 100vh = altura total da tela.
+
+👉 Então, quando você coloca:
+
+css
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #c2d1a9, #6b745fe0);
+}
+
+
+💡 Dica prática:
+
+Use height: 100% quando quiser que o elemento ocupe exatamente 100% da altura do pai.
+
+Use min-height: 100vh quando quiser garantir que o elemento sempre cubra a tela inteira, independentemente do conteúdo.
+
+margin -> define as margens de um elemento.
+	margin: 10px 5px 15px 20px|auto;
+		superior      é de 10px
+		direita         é de 5px
+		inferior       é de 15px
+		esquerda   é de 20px
+	margin: auto;
+		centralizar na horizontal
+
+border-radius -> Adicionar cantos arredondado
+	border-radius: 15px 50px 30px 5px
+		superior esquerdo    é de 15px
+		superior direito          é de 50px
+		inferior direito            é de 30px
+		inferior esquerdo      é de 5px
+
+padding -> É o espaço entre o conteúdo e a borda
+	padding: 10px 5px 15px 20px;
+		superior    é de 10px
+		direito       é  de 5px
+		inferior      é de 15px
+		esquerdo  é de 20px
+
+text-aling -> É o alinhamento horizontal do texto
+	text-align: left|right|center|justify|initial|inherit;
+		left-        Alinha para a esquerda
+		right-      Alinha para a direita
+		center-  Centraliza
+		justify-    Estica as linhas para que cada linha tenha a mesma largura
+		initial-      Define para o valor padrão
+		inherit-    Herda esta propriedade do seu elemento principal
+
+box-shadow -> Anexa uma ou mais sombras a um elemento.
+	box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+		nome-       Valor padrão. Nenhuma sombra é exibida
+		h-offset-    Deslocamento horizontal da sombra
+		v-offset-    Deslocamento vertical da sombra
+		blur-           O raio de desfoque
+		spread-      raio de propagação
+		color-         A cor da sombra
+		inset-         Muda sombra externa para sombra interior
+		initial-        Define para o valor padrão
+		inherit-      Herda esta propriedade do seu elemento pai.
