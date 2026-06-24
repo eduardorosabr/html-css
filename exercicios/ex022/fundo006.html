@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adaptando fundo ao tamanho da tela</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 96vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
-            background-size: cover; /*Teria como resolver tecnicamente usando as duas medidas não recomendado */
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* shorthand background
+            color - image - position attachment
+            size não funcipna ainda, tendo que ser colocado após shorthand
+            */
+           
+            background: black url(imagens/wallpaper002.jpg) center center fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 500px;
+            width: 100%;
+            max-width: 400px;
             border: 2px solid black;
             border-radius: 15px;
             margin: auto;
